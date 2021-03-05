@@ -35,12 +35,12 @@ class MainViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CastomTableViewCell
 
-        cell.textLabel?.text = restaurantNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
-        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2
-        cell.imageView?.clipsToBounds = true  // обрезка изображения по imageView
+        cell.nameLabel?.text = restaurantNames[indexPath.row]
+        cell.imageOfPace?.image = UIImage(named: restaurantNames[indexPath.row])
+        cell.imageOfPace?.layer.cornerRadius = cell.imageOfPace.frame.size.height / 2
+        cell.imageOfPace?.clipsToBounds = true  // обрезка изображения по imageView
     
 
         return cell

@@ -13,6 +13,7 @@
 		3EB0B07625F25A6200E35C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB0B07525F25A6200E35C3B /* Assets.xcassets */; };
 		3EB0B07925F25A6200E35C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB0B07725F25A6200E35C3B /* LaunchScreen.storyboard */; };
 		3EB0B08425F25F3200E35C3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0B08325F25F3200E35C3B /* MainViewController.swift */; };
+		3EB0B08825F26C9100E35C3B /* CastomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0B08725F26C9100E35C3B /* CastomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3EB0B07825F25A6200E35C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB0B07A25F25A6200E35C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB0B08325F25F3200E35C3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3EB0B08725F26C9100E35C3B /* CastomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3EB0B06C25F25A5D00E35C3B /* AppDelegate.swift */,
 				3EB0B06E25F25A5D00E35C3B /* SceneDelegate.swift */,
 				3EB0B08325F25F3200E35C3B /* MainViewController.swift */,
+				3EB0B08725F26C9100E35C3B /* CastomTableViewCell.swift */,
 				3EB0B07225F25A5D00E35C3B /* Main.storyboard */,
 				3EB0B07525F25A6200E35C3B /* Assets.xcassets */,
 				3EB0B07725F25A6200E35C3B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				3EB0B08425F25F3200E35C3B /* MainViewController.swift in Sources */,
 				3EB0B06D25F25A5D00E35C3B /* AppDelegate.swift in Sources */,
+				3EB0B08825F26C9100E35C3B /* CastomTableViewCell.swift in Sources */,
 				3EB0B06F25F25A5D00E35C3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
