@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3138B225F3937A00226618 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3138B125F3937A00226618 /* RatingControl.swift */; };
 		3E438FA025F2BAA600DEA047 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E438F9F25F2BAA600DEA047 /* StorageManager.swift */; };
 		3EB0B06D25F25A5D00E35C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0B06C25F25A5D00E35C3B /* AppDelegate.swift */; };
 		3EB0B06F25F25A5D00E35C3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0B06E25F25A5D00E35C3B /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3138B125F3937A00226618 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		3E438F9F25F2BAA600DEA047 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3EB0B06925F25A5D00E35C3B /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB0B06C25F25A5D00E35C3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				3EB0B06E25F25A5D00E35C3B /* SceneDelegate.swift */,
 				3EB0B08325F25F3200E35C3B /* MainViewController.swift */,
 				3EB0B08D25F283E400E35C3B /* NewPlaceTableViewController.swift */,
+				3E3138B125F3937A00226618 /* RatingControl.swift */,
 				3EB0B08A25F2706700E35C3B /* PlaceModel.swift */,
 				3E438F9F25F2BAA600DEA047 /* StorageManager.swift */,
 				3EB0B08725F26C9100E35C3B /* CastomTableViewCell.swift */,
@@ -221,6 +224,7 @@
 				3EB0B08425F25F3200E35C3B /* MainViewController.swift in Sources */,
 				3EB0B06D25F25A5D00E35C3B /* AppDelegate.swift in Sources */,
 				3E438FA025F2BAA600DEA047 /* StorageManager.swift in Sources */,
+				3E3138B225F3937A00226618 /* RatingControl.swift in Sources */,
 				3EB0B08B25F2706700E35C3B /* PlaceModel.swift in Sources */,
 				3EB0B08825F26C9100E35C3B /* CastomTableViewCell.swift in Sources */,
 				3EB0B06F25F25A5D00E35C3B /* SceneDelegate.swift in Sources */,

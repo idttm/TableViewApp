@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Cosmos
 
 class CastomTableViewCell: UITableViewCell {
 
@@ -14,6 +15,7 @@ class CastomTableViewCell: UITableViewCell {
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var imageOfPace: UIImageView!
+    @IBOutlet weak var cosmosView: CosmosView!
     
     
     override func awakeFromNib() {
